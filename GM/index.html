@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Marvel</title>
 </head>
@@ -20,10 +21,22 @@
                 <img src="img/Group.svg" alt="logo">
             </a>
         </div>
-    <div class="header__burger" onclick="openMenu">
-        <span></span>
-    </div>
-    <!-- /.header__burger -->
+            <div class="burger">
+                <div class="menu__burger menu-burger_active">
+                    <div class="menu__burger_container">
+                        <div class="menu__burger_nav">
+                            <a href="#" class="burger_link">About</a>
+                            <a href="#" class="burger_link">Services</a>
+                            <a href="#" class="burger_link">Contact</a>
+                        </div>
+                        <div class="btn">
+                            <button class="btn__main">
+                                <span class="btn_text">Contact Us</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <ul class="header__menu menu">
             <li class="header__menu_item">
                 <a href="#" class="menu_link">About</a>
@@ -55,7 +68,8 @@
     <div class="scroll__line"></div>
     <div class="scroll__text"> Scroll for more</div>
 </div>
-                         <div class="about">
+                         
+<div class="about">
     <div class="about__title">
         About Us
     </div>

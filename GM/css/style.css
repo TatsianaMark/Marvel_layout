@@ -17,7 +17,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.header__burger {
+.menu__burger {
   display: none;
 }
 
@@ -269,15 +269,49 @@
     display: none;
   }
 
-  .header__burger {
+  .burger {
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu__burger {
+    margin-top: 29px;
     display: block;
     position: relative;
     width: 25px;
     height: 25px;
   }
 
-  .header__burger:before,
-  .header__burger:after {
+  .menu__burger_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .menu__burger_container_nav {
+    margin-top: 10%;
+    padding-top: 80px;
+    position: fixed;
+    z-index: 20;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow-y: auto;
+  }
+
+  .menu__burger:before,
+  .menu__burger:after {
     content: "";
     background-color: black;
     position: absolute;
@@ -286,11 +320,53 @@
     left: 0;
   }
 
-  .header__burger:before {
+  .menu__burger:before {
     top: 14px;
   }
 
-  .header__burger:after {
+  .menu__burger:after {
     bottom: 0;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .menu-burger_active::before {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+
+  .menu-burger_active::after {
+    top: 0;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+
+  .menu-burger_active {
+    background-color: #000000;
+    height: 78px;
+  }
+
+  .burger_link {
+    padding: 30px;
+    font-family: "Sofia-Pro";
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .burger_link:hover {
+    -webkit-filter: brightness(0.7);
+            filter: brightness(0.7);
   }
 }
