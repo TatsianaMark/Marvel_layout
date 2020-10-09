@@ -170,15 +170,16 @@
   max-width: 1110px;
   margin: 0 auto;
 }
-.shadow{
+.shadow_for_lending{
   //background: rgb(0,0,0);
   //background: linear-gradient(4deg, rgba(0,0,0,1) 4.66%, rgba(0,0,0,0.05) 76.78%);
 }
 
 .lending{
-  height: 1584px;
+  max-height: 1584px;
   background: url("../img/back.jpg") no-repeat center top;
 }
+
 .header {
   padding-top: 3%;
   &__logo {

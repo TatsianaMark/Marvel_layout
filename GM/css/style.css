@@ -28,7 +28,7 @@
 }
 
 .lending {
-  height: 1584px;
+  max-height: 1584px;
   background: url("../img/back.jpg") no-repeat center top;
 }
 
