@@ -1,0 +1,138 @@
+@mixin flex-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+@mixin num-pg{
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+@mixin font($font_name, $file_name, $weight, $style) {
+
+  @font-face {
+    font-family: $font_name;
+    font-display: swap;
+    src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+    font-weight: #{$weight};
+    font-style: #{$style};
+  }
+}
+
+.back_services{
+  background-color: #F6D330;
+}
+.page__number_services{
+  @include num-pg;
+  background-image: url("../img/servs-page.png");
+}
+.services{
+
+  &__title{
+    padding-top: 101px;
+    color: black;
+    text-align: left;
+    font-family: "Alata-Regular";
+    font-weight: 400;
+    line-height: 80px;
+    font-size: 90px;
+  }
+  &__title:after{
+    content: '';
+    display: block;
+    margin: 62px -1px 42px;
+    width: 0;
+    height: 6px;
+    border-left: 50px white solid;
+    border-right: 50px white solid;
+  }
+  &__description{
+    max-width: 837px;
+    max-height: 118px;
+    p{
+      text-align: left;
+      font-family:"Sofia-Pro";
+      line-height:26px;
+      font-size:18px;
+      font-weight: 300;
+    }
+    &_bottom{
+      max-width: 837px;
+      max-height: 118px;
+      padding-top: 67px;
+      padding-bottom: 92px;
+      p{
+        text-align: left;
+        font-family:"Sofia-Pro";
+        line-height:26px;
+        font-size:18px;
+        font-weight: 300;
+      }
+    };
+  }
+  .subtitles{
+    padding-top: 47px;
+    @include flex-row;
+
+    &__col:not(:first-child){
+      padding-left: 30px;
+    }
+    &__col{
+      display: flex;
+      flex-direction: column;
+
+      &_main{
+        font-family:"Sofia-Pro";
+        line-height:42px;
+        font-size:40px;
+        font-weight: 700;
+      }
+      &_group{
+        padding-top: 33px;
+            ul{
+              padding-left: 15px;
+              list-style: none;
+              li{
+                list-style-type: square;
+                color: white;
+                padding-top: 5px;
+                span{
+                  padding-left: 4px;
+                  font-family:"Sofia-Pro";
+                  line-height:26px;
+                  font-size:18px;
+                  font-weight: 300;
+                  color: #000;
+                    }
+
+                 }
+              }
+            }
+      .btn__arrow:before{
+        content: '';
+        display: block;
+        margin: 0px -36px -11px;
+        width: 33px;
+        height: 2px;
+        border-left: 33px white solid;
+
+      }
+
+      .btn__arrow{
+        padding-top: 41px;
+        padding-left: 55px;
+
+        .arrow{
+          border: solid white;
+          border-width: 0 2px 2px 0;
+          display: inline-block;
+          padding: 3px;
+        }
+        .right{
+          transform: rotate(-45deg);
+          -webkit-transform: rotate(-45deg);
+        }
+      }
+          }
+       }
+    }
