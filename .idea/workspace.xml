@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ebed0a3-9802-4e0b-866e-14a99c9b8ef3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/#src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marvel_layout-main/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Marvel_layout-main/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marvel_layout-main/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Marvel_layout-main/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marvel_layout-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Marvel_layout-main/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +21,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/#src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="73">
+                <state relative-caret-position="124">
                   <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
                 </state>
               </provider>
@@ -125,7 +121,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/#src/scss/footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="83">
+                <state relative-caret-position="226">
                   <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
                 </state>
               </provider>
@@ -284,7 +280,7 @@
       <workItem from="1601615150130" duration="31696000" />
       <workItem from="1602152188205" duration="11168000" />
       <workItem from="1602232926524" duration="3092000" />
-      <workItem from="1602492255050" duration="14798000" />
+      <workItem from="1602492255050" duration="15524000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1601653778143</created>
@@ -297,7 +293,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60754000" />
+    <option name="totallyTimeSpent" value="61480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -316,7 +312,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32962963" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5777778" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.17777778" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -480,7 +476,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/#src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
+        <state relative-caret-position="124">
           <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
@@ -494,7 +490,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/#src/scss/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="226">
           <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
