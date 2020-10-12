@@ -1,0 +1,28 @@
+@mixin flex-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+@mixin num-pg{
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+@mixin font($font_name, $file_name, $weight, $style) {
+
+  @font-face {
+    font-family: $font_name;
+    font-display: swap;
+    src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+    font-weight: #{$weight};
+    font-style: #{$style};
+  }
+}
+.back_footer{
+  background-color: black;
+}
+
+.page__number_footer{
+  @include num-pg;
+  background-image: url("../img/contact-page.png");
+}

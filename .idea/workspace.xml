@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ebed0a3-9802-4e0b-866e-14a99c9b8ef3" name="Default Changelist" comment="" />
+    <list default="true" id="6ebed0a3-9802-4e0b-866e-14a99c9b8ef3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/#src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marvel_layout-main/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Marvel_layout-main/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marvel_layout-main/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Marvel_layout-main/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marvel_layout-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Marvel_layout-main/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,11 +22,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.482899">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/#src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="34" />
+                <state relative-caret-position="73">
+                  <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -65,11 +72,11 @@
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/#src/_services.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="338">
-                  <caret line="59" column="265" lean-forward="true" selection-start-line="59" selection-start-column="265" selection-end-line="59" selection-end-column="265" />
+                <state relative-caret-position="1176">
+                  <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -87,7 +94,7 @@
             <entry file="file://$PROJECT_DIR$/#src/scss/style.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-1292">
-                  <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+                  <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -106,18 +113,22 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/#src/scss/services.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+                <state relative-caret-position="228">
+                  <caret line="27" column="1" selection-start-line="24" selection-end-line="27" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/#src/scss/footer.scss">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="83">
+                  <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+                </state>
+              </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -167,10 +178,11 @@
         <option value="$PROJECT_DIR$/#src/_contact.html" />
         <option value="$PROJECT_DIR$/#src/scss/contact.scss" />
         <option value="$PROJECT_DIR$/#src/scss/style.scss" />
-        <option value="$PROJECT_DIR$/#src/index.html" />
         <option value="$PROJECT_DIR$/#src/scss/about.scss" />
         <option value="$PROJECT_DIR$/#src/_services.html" />
         <option value="$PROJECT_DIR$/#src/scss/services.scss" />
+        <option value="$PROJECT_DIR$/#src/index.html" />
+        <option value="$PROJECT_DIR$/#src/scss/footer.scss" />
       </list>
     </option>
   </component>
@@ -272,7 +284,7 @@
       <workItem from="1601615150130" duration="31696000" />
       <workItem from="1602152188205" duration="11168000" />
       <workItem from="1602232926524" duration="3092000" />
-      <workItem from="1602492255050" duration="12532000" />
+      <workItem from="1602492255050" duration="14798000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1601653778143</created>
@@ -285,13 +297,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58488000" />
+    <option name="totallyTimeSpent" value="60754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.023847377" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15739268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Gulp" order="3" side_tool="true" />
@@ -305,7 +316,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32962963" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30555555" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5777778" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -398,9 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/#src/_footer.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/GM/img/back.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -413,21 +421,11 @@
     <entry file="file://$PROJECT_DIR$/GM/img/groupA.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/#src/scss/footer.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/#src/img/about.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/#src/img/groupA.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/#src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/#src/css/style.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -435,7 +433,7 @@
     <entry file="file://$PROJECT_DIR$/#src/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1292">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -470,17 +468,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/#src/_footer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/#src/_services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="59" column="265" lean-forward="true" selection-start-line="59" selection-start-column="265" selection-end-line="59" selection-end-column="265" />
+        <state relative-caret-position="1176">
+          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/#src/scss/services.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="228">
+          <caret line="27" column="1" selection-start-line="24" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#src/scss/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>

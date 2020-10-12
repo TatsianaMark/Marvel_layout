@@ -211,6 +211,16 @@
   -webkit-transform: rotate(-45deg);
 }
 
+.back_footer {
+  background-color: black;
+}
+
+.page__number_footer {
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-image: url("../img/contact-page.png");
+}
+
 * {
   margin: 0;
   padding: 0;
