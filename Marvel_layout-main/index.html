@@ -9,46 +9,49 @@
     <title>Marvel</title>
 </head>
 <body>
-     <main class="main">
-         <!-- -----------------Home---------------->
-         <div class="lending">
-             <div class="page page__number_home">
-                 <div class="content">
-                     <header class="header">
-        <div class="header__logo">
-            <a class="logo_link" href="#">
+<main class="main">
+    <!-- -----------------Home---------------->
+    <div class="lending">
+        <div class="page page__number_home">
+
+            <header class="header">
+    <div class="content">
+        <div class="header__body">
+            <a href="#" class="header__logo">
                 <img src="img/Group.svg" alt="logo">
             </a>
-        </div>
-            <div class="burger">
-                <div class="menu__burger menu-burger_active">
-                    <div class="menu__burger_container">
-                        <div class="menu__burger_nav">
-                            <a href="#" class="burger_link">About</a>
-                            <a href="#" class="burger_link">Services</a>
-                            <a href="#" class="burger_link">Contact</a>
-                        </div>
-                        <div class="btn">
-                            <button class="btn__main">
-                                <span class="btn_text">Contact Us</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+            <div class="header__burger">
+                <span></span>
             </div>
-        <ul class="header__menu menu">
-            <li class="header__menu_item">
-                <a href="#" class="menu_link">About</a>
-            </li>
-            <li class="header__menu_item">
-                <a href="#" class="menu_link">Services</a>
-            </li>
-            <li class="header__menu_item">
-                <a href="#" class="menu_link">Contact</a>
-            </li>
-        </ul>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li>
+                        <a href="#" class="header__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header__link">Contact</a>
+                    </li>
+                </ul>
+                <!-- /.header__list -->
+            </nav>
+        </div>
+        <div class="burger__btn">
+            <button class="btn__main">
+                <span class="btn_text">Contact Us</span>
+            </button>
+        </div>
+        <!-- /.header__menu -->
+        <!-- /.header__burger -->
+        <!-- /.header__logo -->
+    </div>
+    </div>
+    <!-- /.content -->
 </header>
-                     <div class="info">
+            <div class="content">
+                <div class="info">
     <div class="info__titles">
         <div class="info_title">
             Marvel Power Group
@@ -67,13 +70,13 @@
     <div class="scroll__line"></div>
     <div class="scroll__text"> Scroll for more</div>
 </div>
-                 </div>
-             </div>
-         </div>
-         <!-- -----------------About---------------->
-         <div class="page page__number_about">
-             <div class="content">
-                 
+            </div>
+        </div>
+    </div>
+    <!-- -----------------About---------------->
+    <div class="page page__number_about">
+        <div class="content">
+            
 <div class="about">
     <div class="about__title">
         About Us
@@ -96,13 +99,13 @@
     </div>
 
 </div>
-             </div>
-         </div>
-         <!-- -----------------Services---------------->
-         <div class="back_services">
-             <div class="page page__number_services">
-                 <div class="content">
-                     <div class="services">
+        </div>
+    </div>
+    <!-- -----------------Services---------------->
+    <div class="back_services">
+        <div class="page page__number_services">
+            <div class="content">
+                <div class="services">
     <div class="services__title">
         <p>Services</p>
     </div>
@@ -167,18 +170,49 @@
     </div>
     <!-- /.services__subtitles -->
 </div>
-                 </div>
-             </div>
-         </div>
-         <!-- -----------------Footer---------------->
-         <div class="back_footer">
-             <div class="page page__number_footer">
-                 <div class="content">
-                     
-                 </div>
-             </div>
-         </div>
-     </main>
-     <script src="js/script.min.js"></script>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------Footer---------------->
+    <div class="back_footer">
+        <div class="page page__number_footer">
+            <div class="content">
+                <div class="contact">
+    <div class="contact__title">
+        <div class="contact__title_main">
+            <p>Contact</p>
+        </div>
+        <div class="contact__title_link">
+         <p>Email us here:
+           <a href="#">info@marvelpowergroup.com</a>
+         </p>
+        </div>
+    </div>
+    <div class="contact__input">
+        <div class="contact__input_text">
+            <p>Stay in the loop<br>by getting on<br>our mailing list</p>
+        </div>
+        <div class="contact__input_form">
+                <input id="input_name" name="input" placeholder=" NAME *" type="text">
+
+               <input type="email" name="email" id="input_email" placeholder=" E-MAIL *">
+
+        <div class="btn__send">
+            <button class="btn__footer">
+                <span class="btn_text">Send</span>
+            </button>
+        </div>
+        </div>
+        <!-- /.contact__input contact__input_form -->
+        <!-- /.contact__form contact__form_text -->
+    </div>
+</div>
+<!-- /.contact__form -->
+            </div>
+        </div>
+    </div>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="js/script.min.js"></script>
 </body>
 </html>

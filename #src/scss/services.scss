@@ -1,7 +1,7 @@
 @mixin flex-row{
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 @mixin num-pg{
   background-repeat: no-repeat;
