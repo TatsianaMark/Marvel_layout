@@ -5,3 +5,8 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
     });
 });
+
+// function showAbout() {
+//     let about = document.getElementById("about")
+//     return about;
+// }

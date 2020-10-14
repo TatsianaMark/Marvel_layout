@@ -26,9 +26,9 @@
   @include num-pg;
   background-image: url("../img/servs-page.png");
 }
-.services{
+.services {
 
-  &__title{
+  &__title {
     padding-top: 101px;
     color: black;
     text-align: left;
@@ -37,7 +37,8 @@
     line-height: 80px;
     font-size: 90px;
   }
-  &__title:after{
+
+  &__title:after {
     content: '';
     display: block;
     margin: 62px -1px 42px;
@@ -46,33 +47,102 @@
     border-left: 50px white solid;
     border-right: 50px white solid;
   }
-  &__description{
+
+  &__description {
     max-width: 837px;
     max-height: 118px;
-    p{
+
+    p {
       text-align: left;
-      font-family:"Sofia-Pro";
-      line-height:26px;
-      font-size:18px;
+      font-family: "Sofia-Pro";
+      line-height: 26px;
+      font-size: 18px;
       font-weight: 300;
     }
-    &_bottom{
+
+    &_bottom {
       max-width: 837px;
       max-height: 118px;
       padding-top: 67px;
       padding-bottom: 92px;
-      p{
+
+      p {
         text-align: left;
-        font-family:"Sofia-Pro";
-        line-height:26px;
-        font-size:18px;
+        font-family: "Sofia-Pro";
+        line-height: 26px;
+        font-size: 18px;
         font-weight: 300;
       }
-    };
+    }
+  ;
   }
+}
+  @media(max-width: 767px){
+    .services__title{
+      padding-top: 0;
+      font-size: 40px;
+      line-height: 100px;
+    }
+    .services__description {
+      p {
+        text-align: left;
+        font-family: "Sofia-Pro";
+        line-height: 24px;
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
+    .subtitles {
+      padding-top: 0px;
+      flex-wrap: wrap;
+    }
+    .subtitles__col_group{
+     padding-top: 25px;
+    ul{
+      li{
+        list-style-type: square;
+        color: white;
+        padding-top: 5px;
+        span{
+          padding-left: 4px;
+          font-family:"Sofia-Pro";
+          line-height:16px;
+          font-size:14px;
+          font-weight: 300;
+          color: #000;
+        }
+      }
+    }
+  }
+    .services__description_bottom{
+      padding-top: 40px;
+      padding-bottom: 60px;
+      p {
+        text-align: left;
+        font-family: "Sofia-Pro";
+        line-height: 24px;
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
+    .subtitles__col{
+      padding-top: 55px;
+    }
+    .subtitles__col:not(:first-child){
+        padding-left: 0px;
+      }
+
+    .subtitles__col_main p{
+          font-family:"Sofia-Pro";
+          line-height:50px;
+          font-size:25px;
+          font-weight: 700;
+        }
+    }
   .subtitles{
     padding-top: 47px;
-    @include flex-row;
+    display: flex;
+    flex-direction: row;
 
     &__col:not(:first-child){
       padding-left: 30px;
@@ -82,6 +152,7 @@
       flex-direction: column;
 
       &_main{
+        max-width: 285px;
         font-family:"Sofia-Pro";
         line-height:42px;
         font-size:40px;
@@ -135,4 +206,3 @@
       }
           }
        }
-    }

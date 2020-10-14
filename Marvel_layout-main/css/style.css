@@ -126,7 +126,7 @@
   font-weight: 300;
 }
 
-.services .subtitles {
+.subtitles {
   padding-top: 47px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,15 +135,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
-.services .subtitles__col:not(:first-child) {
+.subtitles__col:not(:first-child) {
   padding-left: 30px;
 }
 
-.services .subtitles__col {
+.subtitles__col {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -153,29 +151,30 @@
           flex-direction: column;
 }
 
-.services .subtitles__col_main {
+.subtitles__col_main {
+  max-width: 285px;
   font-family: "Sofia-Pro";
   line-height: 42px;
   font-size: 40px;
   font-weight: 700;
 }
 
-.services .subtitles__col_group {
+.subtitles__col_group {
   padding-top: 33px;
 }
 
-.services .subtitles__col_group ul {
+.subtitles__col_group ul {
   padding-left: 15px;
   list-style: none;
 }
 
-.services .subtitles__col_group ul li {
+.subtitles__col_group ul li {
   list-style-type: square;
   color: white;
   padding-top: 5px;
 }
 
-.services .subtitles__col_group ul li span {
+.subtitles__col_group ul li span {
   padding-left: 4px;
   font-family: "Sofia-Pro";
   line-height: 26px;
@@ -184,7 +183,7 @@
   color: #000;
 }
 
-.services .subtitles__col .btn__arrow:before {
+.subtitles__col .btn__arrow:before {
   content: '';
   display: block;
   margin: 0px -36px -11px;
@@ -193,19 +192,19 @@
   border-left: 33px white solid;
 }
 
-.services .subtitles__col .btn__arrow {
+.subtitles__col .btn__arrow {
   padding-top: 41px;
   padding-left: 55px;
 }
 
-.services .subtitles__col .btn__arrow .arrow {
+.subtitles__col .btn__arrow .arrow {
   border: solid white;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 3px;
 }
 
-.services .subtitles__col .btn__arrow .right {
+.subtitles__col .btn__arrow .right {
   -ms-transform: rotate(-45deg);
       transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
@@ -283,7 +282,6 @@
 
 .contact__input {
   padding-top: 154px;
-  padding-left: 110px;
   max-width: 442px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -363,8 +361,7 @@
 
 .contact__input_form .btn__send {
   padding-top: 14px;
-  padding-left: 175px;
-  padding-bottom: 288px;
+  padding-bottom: 142px;
 }
 
 .contact__input_form .btn__send .btn__footer {
@@ -391,6 +388,11 @@
   margin: 0;
   padding: 0;
   /*box-sizing: border-box;*/
+}
+
+body,
+html {
+  overflow: auto;
 }
 
 .App {
@@ -587,6 +589,37 @@
   }
 }
 
+@media (min-width: 1420px) {
+  .contact__input {
+    padding-left: 110px;
+  }
+}
+
+@media (max-width: 1420px) {
+  .page {
+    background-image: none;
+  }
+}
+
+@media (max-width: 1161px) {
+  .about {
+    padding-top: 53px;
+    padding-bottom: 53px;
+  }
+
+  .about__title {
+    padding-top: 0;
+  }
+
+  .about__description {
+    padding-top: 30px;
+  }
+
+  .back_services {
+    margin-top: 154px;
+  }
+}
+
 @media (max-width: 1160px) {
   .about__title {
     padding-top: 53px;
@@ -609,8 +642,152 @@
 }
 
 @media (max-width: 767px) {
-  .page {
-    background-image: none;
+  .about__title {
+    font-family: "Alata-Regular";
+    font-weight: 400;
+    line-height: 100px;
+    font-size: 40px;
+    padding-top: 0;
+  }
+
+  .about__description p {
+    max-width: 290px;
+    font-weight: 300;
+    font-family: "Sofia-Pro";
+    line-height: 24px;
+    font-size: 14px;
+  }
+
+  .about__title:after {
+    content: '';
+    display: block;
+    margin: 22px -2px;
+    width: 0;
+    height: 4px;
+    border-left: 32px #f6d330 solid;
+    border-right: 32px #f6d330 solid;
+  }
+
+  .services__title {
+    padding-top: 0;
+    font-size: 40px;
+    line-height: 100px;
+  }
+
+  .services__description p {
+    text-align: left;
+    font-family: "Sofia-Pro";
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .subtitles {
+    padding-top: 0px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .subtitles__col_group {
+    padding-top: 25px;
+  }
+
+  .subtitles__col_group ul li {
+    list-style-type: square;
+    color: white;
+    padding-top: 5px;
+  }
+
+  .subtitles__col_group ul li span {
+    padding-left: 4px;
+    font-family: "Sofia-Pro";
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+  }
+
+  .services__description_bottom {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .services__description_bottom p {
+    text-align: left;
+    font-family: "Sofia-Pro";
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .subtitles__col {
+    padding-top: 55px;
+  }
+
+  .subtitles__col:not(:first-child) {
+    padding-left: 0px;
+  }
+
+  .subtitles__col_main p {
+    font-family: "Sofia-Pro";
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .contact__input_form.btn__send {
+    padding-left: 98px;
+  }
+
+  .btn__footer {
+    width: 196px;
+    height: 48px;
+  }
+
+  #input_name,
+  #input_email {
+    max-width: 290px;
+  }
+
+  .contact__title_main p {
+    font-family: "Alata-Regular";
+    font-weight: 400;
+    line-height: 100px;
+    font-size: 40px;
+    padding-top: 55px;
+  }
+
+  .contact__title_main p:after {
+    content: '';
+    display: block;
+    margin: 22px -2px;
+    width: 0;
+    height: 4px;
+    border-left: 32px #f6d330 solid;
+    border-right: 32px #f6d330 solid;
+  }
+
+  .contact__title_link {
+    max-width: 290px;
+  }
+
+  .contact__title_link p {
+    color: white;
+    font-family: "Sofia-Pro";
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .contact__input_text p {
+    font-family: "Sofia-Pro";
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .contact__input {
+    padding-top: 46px;
   }
 
   .info_title {
@@ -619,6 +796,10 @@
 
   .scroll {
     display: none;
+  }
+
+  .btn {
+    padding-bottom: 70px;
   }
 
   .burger__btn.active {
@@ -731,6 +912,7 @@
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     top: 0;
+    text-align: -webkit-center;
   }
 
   .header__list {
@@ -738,6 +920,7 @@
   }
 
   .header__list li {
+    width: 50%;
     margin: 0 0 20px 0px;
   }
 
@@ -745,5 +928,14 @@
     font-size: 40px;
     line-height: 40px;
     font-family: "Sofia-Pro";
+  }
+}
+
+@media (max-width: 540px) {
+  .about__img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 290px;
+    height: 180px;
   }
 }

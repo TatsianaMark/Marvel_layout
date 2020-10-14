@@ -26,16 +26,41 @@
   @include num-pg;
   background-image: url("../img/contact-page.png");
 }
-.contact{
+
+//@media (max-width:1110px){
+//  .btn__send{
+//    padding-left: 98px;
+//  }
+//
+//  .btn__footer {
+//    width: 196px;
+//    height: 48px;
+//  }
+//
+//  #input_name, #input_email {
+//    max-width: 290px;
+//  }
+//
+//  .contact__input_text p {
+//    font-family: "Sofia-Pro";
+//    line-height: 35px;
+//    font-size: 25px;
+//    font-weight: 700;
+//  }
+//  .contact__input {
+//    padding-top: 86px;
+//  }
+//}
+.contact {
   @include flex-row;
 
-  &__title{
+  &__title {
     display: flex;
     flex-direction: column;
 
 
-    &_main{
-      p{
+    &_main {
+      p {
         padding-top: 101px;
         color: white;
         text-align: left;
@@ -45,7 +70,8 @@
         font-size: 90px;
 
       }
-      p:after{
+
+      p:after {
         content: '';
         display: block;
         margin: 40px 0px;
@@ -55,15 +81,18 @@
         border-right: 50px #f6d330 solid;
       }
     }
-    &_link{
+
+    &_link {
       max-width: 554px;
-      p{
+
+      p {
         color: white;
-        font-family:"Sofia-Pro";
-        line-height:42px;
-        font-size:40px;
+        font-family: "Sofia-Pro";
+        line-height: 42px;
+        font-size: 40px;
         font-weight: 700;
-        a{
+
+        a {
           color: #F6D330;
           text-decoration: none;
           border-bottom: 2px #F6D330 solid;
@@ -71,89 +100,157 @@
       }
     }
   }
-  &__input{
+
+  &__input {
     padding-top: 154px;
-    padding-left: 110px;
     max-width: 442px;
     display: flex;
     flex-direction: column;
-    &_text{
-      p{
+
+    &_text {
+      p {
         color: white;
-        font-family:"Sofia-Pro";
-        line-height:42px;
-        font-size:40px;
+        font-family: "Sofia-Pro";
+        line-height: 42px;
+        font-size: 40px;
         font-weight: 700;
       }
     }
-    &_form{
+
+    &_form {
       display: flex;
       flex-direction: column;
       padding-top: 41px;
 
 
-      #input_name, #input_email{
+      #input_name, #input_email {
         width: 445px;
         height: 48px;
       }
-      #input_email{
+
+      #input_email {
         margin-top: 15px;
       }
 
       input::-webkit-input-placeholder {
         padding-left: 20px;
-        color:#000;
-        font-family:"Sofia-Pro";
-        line-height:14px;
-        font-size:14px;
-        font-weight: 600;}
-      ::-moz-placeholder          {
+        color: #000;
+        font-family: "Sofia-Pro";
+        line-height: 14px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      ::-moz-placeholder {
         padding-left: 20px;
-        color:#000;
-        font-family:"Sofia-Pro";
-        line-height:14px;
-        font-size:14px;
-        font-weight: 600;}/* Firefox 19+ */
-      :-moz-placeholder           {
+        color: #000;
+        font-family: "Sofia-Pro";
+        line-height: 14px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      /* Firefox 19+ */
+      :-moz-placeholder {
         padding-left: 20px;
-        color:#000;
-        font-family:"Sofia-Pro";
-        line-height:14px;
-        font-size:14px;
-        font-weight: 600;}/* Firefox 18- */
-      :-ms-input-placeholder      {
+        color: #000;
+        font-family: "Sofia-Pro";
+        line-height: 14px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      /* Firefox 18- */
+      :-ms-input-placeholder {
         padding-left: 20px;
-        color:#000;
-        font-family:"Sofia-Pro";
-        line-height:14px;
-        font-size:14px;
-        font-weight: 600;}
-      .btn__send{
+        color: #000;
+        font-family: "Sofia-Pro";
+        line-height: 14px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      .btn__send {
         padding-top: 14px;
-        padding-left: 175px;
-        padding-bottom: 288px;
-        .btn__footer{
+        //padding-left: 175px;
+        padding-bottom: 142px;
+
+        .btn__footer {
           border: none;
           width: 272px;
           height: 48px;
-          background-color:#F6D330;
+          background-color: #F6D330;
           background-image: url("../img/btng.png");
           background-repeat: no-repeat;
           background-position: right 42% bottom 48%;
 
-          .btn_text{
+          .btn_text {
             margin-left: -16%;
             text-transform: uppercase;
-            color:#000;
-            font-family:"Sofia-Pro";
-            line-height:14px;
-            font-size:14px;
+            color: #000;
+            font-family: "Sofia-Pro";
+            line-height: 14px;
+            font-size: 14px;
             font-weight: 600;
 
           }
-      }
+        }
 
       }
     }
   }
 }
+
+@media(max-width: 767px) {
+  .contact__input_form.btn__send{
+    padding-left: 98px;
+
+  }
+
+  .btn__footer {
+    width: 196px;
+    height: 48px;
+  }
+
+  #input_name, #input_email {
+    max-width: 290px;
+  }
+
+  .contact__title_main p {
+    font-family: "Alata-Regular";
+    font-weight: 400;
+    line-height: 100px;
+    font-size: 40px;
+    padding-top: 55px;
+  }
+
+  .contact__title_main p:after {
+    content: '';
+    display: block;
+    margin: 22px -2px;
+    width: 0;
+    height: 4px;
+    border-left: 32px #f6d330 solid;
+    border-right: 32px #f6d330 solid;
+  }
+  .contact__title_link {
+    max-width: 290px;
+    p {
+      color: white;
+      font-family: "Sofia-Pro";
+      line-height: 35px;
+      font-size: 25px;
+      font-weight: 700;
+    }
+  }
+  .contact__input_text p {
+    font-family: "Sofia-Pro";
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .contact__input {
+    padding-top: 46px;
+  }
+}
+

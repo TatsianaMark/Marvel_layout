@@ -12,7 +12,53 @@
   background-image: url("../img/groupA.png");
 }
 
+@media(max-width: 767px){
 
+  .about__title{
+    font-family:"Alata-Regular";
+    font-weight: 400;
+    line-height: 100px;
+    font-size: 40px;
+    padding-top: 0;
+  }
+
+  .about__description p{
+    max-width: 290px;
+    font-weight: 300;
+    font-family:"Sofia-Pro";
+    line-height:24px;
+    font-size:14px;
+  }
+
+  .about__title:after {
+    content: '';
+    display: block;
+    margin: 22px -2px;
+    width: 0;
+    height: 4px;
+    border-left: 32px #f6d330 solid;
+    border-right: 32px #f6d330 solid;
+  }
+}
+@media(max-width: 540px){
+  .about__img img{
+    object-fit: cover;
+    width: 290px;
+    height: 180px;
+  }
+}
+@media(max-width: 1161px){
+  .about{
+    padding-top: 53px;
+    padding-bottom: 53px;
+  }
+  .about__title{
+    padding-top: 0;
+  }
+  .about__description {
+    padding-top: 30px;
+  }
+}
 .about{
 
   height: 759px;

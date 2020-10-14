@@ -29,10 +29,17 @@
   background-repeat: no-repeat;
   background-position: right center;
 }
-//body,html {
-//  overflow:hidden;
-//}
+body,html {
+  overflow:auto;
+}
 //=============MEDIA===========
+
+@media(max-width: 1161px){
+  .back_services {
+    margin-top: 154px;
+  }
+}
+
 @media (min-width: 767px) {
 
 
@@ -60,11 +67,17 @@
     }
   }
 }
-@media (max-width: 767px) {
-
+@media (min-width: 1420px){
+  .contact__input{
+    padding-left: 110px;
+  }
+}
+@media (max-width: 1420px){
   .page {
     background-image: none;
   }
+}
+@media (max-width: 767px) {
 
   .info_title {
     font-size: 50px;
@@ -72,16 +85,9 @@
   .scroll {
     display: none;
   }
-
-  //-----------media menu----------
-
-
-
-
-
-
-  //-----------media menu----------
-
+  .btn{
+    padding-bottom: 70px;
+  }
 }
 
 
@@ -301,11 +307,13 @@
   .header__menu.active{
     transition: all 0.3s ease 0s;
     top: 0;
+    text-align: -webkit-center;
   }
   .header__list{
     display: block;
   }
   .header__list li{
+    width: 50%;
     margin: 0 0 20px 0px;
   }
   .header__link{
