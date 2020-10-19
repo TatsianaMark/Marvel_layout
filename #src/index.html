@@ -13,24 +13,162 @@
     <!-- -----------------Home---------------->
     <div class="lending">
         <div class="page page__number_home">
-
-            @@include('_header.html')
+            <header class="header">
+                <div class="content">
+                    <div class="header__body">
+                        <a href="#" class="header__logo">
+                            <img src="img/Group.svg" alt="logo">
+                        </a>
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                        <nav class="header__menu">
+                            <ul class="header__list">
+                                <li>
+                                    <a href="#" onclick="showAbout()" class="header__link">About</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="header__link">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="header__link">Contact</a>
+                                </li>
+                            </ul>
+                            <!-- /.header__list -->
+                        </nav>
+                    </div>
+                    <div class="burger__btn">
+                        <button class="btn__main">
+                            <span class="btn_text">Contact Us</span>
+                        </button>
+                    </div>
+                    <!-- /.header__menu -->
+                    <!-- /.header__burger -->
+                    <!-- /.header__logo -->
+                </div>
+                <!-- /.content -->
+            </header>
             <div class="content">
-                @@include('_info.html')
+                <div class="info">
+                    <div class="info__titles">
+                        <div class="info_title">
+                            Marvel Power Group
+                        </div>
+                        <div class="info_support">
+                            Marvel Power Group is a boutique consulting firm with a fresh, markets-based approach to value creation. We offer services to clients in energy, water, manufacturing and transportation sectors.
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button class="btn__main">
+                        <span class="btn_text">Contact Us</span>
+                    </button>
+                </div>
+                <div class="scroll">
+                    <div class="scroll__line"></div>
+                    <div class="scroll__text"> Scroll for more</div>
+                </div>
             </div>
         </div>
     </div>
     <!-- -----------------About---------------->
     <div class="page page__number_about">
         <div class="content">
-            @@include('_about.html')
+            <div class="about">
+                <div class="about__title">
+                    About Us
+                </div>
+                <div class="about__content">
+                    <div class="about__img">
+                        <img src="img/about.jpg" alt="about">
+
+                    </div>
+                    <div class="about__description">
+                        <p>Our dynamic, solutions-oriented team brings decades
+                            of relevant transactional, analytical and regulatory experience to supporting our clients’ unique
+                            agendas.</p><br>
+                        <p>We are experienced practitioners who have run companies, successfully originated and closed complex
+                            deals, advocated and negotiated favorable policy and advanced technological innovation and climate
+                            leadership.</p><br>
+                        <p>We specialize in structuring balanced solutions for all affected stakeholders and uncovering economic opportunities in otherwise opaque environments.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <!--@@include('_about.html')-->
         </div>
     </div>
     <!-- -----------------Services---------------->
     <div class="back_services">
         <div class="page page__number_services">
             <div class="content">
-                @@include('_services.html')
+                <!--@@include('_services.html')-->
+                <div class="services">
+                    <div class="services__title">
+                        <p>Services</p>
+                    </div>
+                    <div class="services__description">
+                        <p>Our clients are at the forefront of energy transition and innovation. Their task is complex: balance reliability and cost effectiveness with new customer demands, investment decisions, decarbonization goals and an evolving menu of new technologies. We understand the task and bring deep expertise
+                            to addressing these challenges.</p>
+                    </div>
+                    <div class="subtitles">
+                        <div class="subtitles__col">
+                            <div class="subtitles__col_main">
+                                <p>Enterprise Strategy</p>
+                            </div>
+                            <div class="subtitles__col_group">
+                                <ul>
+                                    <li><span>Procurement and investment diligence</span></li>
+                                    <li><span>Customer engagement and retention</span></li>
+                                    <li><span>Renewable, DER, and EV program structuring</span></li>
+                                    <li><span>Reliability planning and reporting</span></li>
+                                </ul>
+                            </div>
+                            <div class="btn__arrow">
+                                <i class="arrow right"></i>
+                            </div>
+                        </div>
+                        <div class="subtitles__col">
+                            <div class="subtitles__col_main">
+                                <p>Wholesale Power</p>
+                            </div>
+                            <div class="subtitles__col_group">
+                                <ul>
+                                    <li><span>Commodity advisory and RFPs</span></li>
+                                    <li><span>Energy, capacity, REC, RIN, and LCFS placement</span></li>
+                                    <li><span>Enterprise PPA structuring</span></li>
+                                    <li><span>Contract extensions and re-packaging</span></li>
+                                </ul>
+                            </div>
+                            <div class="btn__arrow">
+                                <i class="arrow right"></i>
+                            </div>
+                        </div>
+                        <div class="subtitles__col">
+                            <div class="subtitles__col_main">
+                                <p>Market Development</p>
+                            </div>
+                            <div class="subtitles__col_group">
+                                <ul>
+                                    <li><span>New venture setup</span></li>
+                                    <li><span>Demand planning and acquisition</span></li>
+                                    <li><span>Project development and regulatory support</span></li>
+                                    <li><span>Partnership structuring</span></li>
+                                </ul>
+                            </div>
+                            <div class="btn__arrow">
+                                <i class="arrow right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__description_bottom">
+                        <p>Our clients are time constrained and under-resourced. Agendas shift, budgets move and priorities change. We understand. We are agile, creative and immediately responsive to your various working styles, governance requirements and evolving needs. </p>
+                    </div>
+
+                </div>
+                <!-- /.services__subtitles -->
+            </div>
             </div>
         </div>
     </div>
@@ -38,7 +176,38 @@
     <div class="back_footer">
         <div class="page page__number_footer">
             <div class="content">
-                @@include('_footer.html')
+                <div class="contact">
+                    <div class="contact__title">
+                        <div class="contact__title_main">
+                            <p>Contact</p>
+                        </div>
+                        <div class="contact__title_link">
+                            <p>Email us here:
+                                <a href="#">info@marvelpowergroup.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact__input">
+                        <div class="contact__input_text">
+                            <p>Stay in the loop<br>by getting on<br>our mailing list</p>
+                        </div>
+                        <div class="contact__input_form">
+                            <input id="input_name" name="input" placeholder=" NAME *" type="text" size="200">
+
+                            <input type="email" name="email" id="input_email" placeholder=" E-MAIL *">
+
+                            <div class="btn__send">
+                                <button class="btn__footer">
+                                    <span class="btn_text">Send</span>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /.contact__input contact__input_form -->
+                        <!-- /.contact__form contact__form_text -->
+                    </div>
+                </div>
+                <!-- /.contact__form -->
+                <!--@@include('_footer.html')-->
             </div>
         </div>
     </div>
